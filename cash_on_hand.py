@@ -7,7 +7,7 @@ def cash_on_hand_function():
     - This function woudld read a CSV file and calcualte if there are any cash defetits and cash surplus  
     """
     # create a file to csv file
-    fp = Path.cwd()/"project_group"/"csv_reports"/"cash_on_hand.csv"
+    fp = Path.cwd()/"csv_reports"/"cash_on_hand.csv"
     # read the csv file to append day and cash on hand 
     with fp.open(mode="r", encoding="UTF-8", newline="") as file:
         # Create a reader to read the csv
