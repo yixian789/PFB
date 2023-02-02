@@ -5,11 +5,11 @@ def main():
     """
     - Main function will modularise our program by running all the functions and creating a summary report 
     """
-    # assign cash on hand value to the cash on hand function 
+    # let cash on hand value be equal to cash on hand function 
     cash_on_hand_value = cash_on_hand.cash_on_hand_function()
-    # assign overhead value to the overhead function 
+    # let overhead value be equal to overhead function 
     overhead_value = overheads.overhead_function()
-    # assign profit loss value to the profit loss function 
+    # let profit loss value be equal to profit loss function 
     profit_loss_value = profit_loss.profitloss_function()
     
     # create a txt file called summary report 
