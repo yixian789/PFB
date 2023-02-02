@@ -14,13 +14,13 @@ def profitloss_function():
         reader = csv.reader(file)
         # skip header
         next(reader)
-        # make output equal to an empty string
+        # make output equals to an empty string
         Output = ""
         # Equate the previous net profit to 0 
         prev_net_profit = 0
-        # set the check value to 0
+        # make check value 0
         check = 0
-        # Assign true to the variable called c
+        # Assign true to the variable c
         c = True  
         # looping columns in reader 
         for column in reader:
