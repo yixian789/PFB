@@ -1,7 +1,7 @@
 from pathlib import Path 
 import csv
 # create a file to csv file
-fp = Path.cwd()/"project_group"/"csv_reports"/"overheads.csv"
+fp = Path.cwd()/"csv_reports"/"overheads.csv"
 
 # define the overhead function
 def overhead_function():
