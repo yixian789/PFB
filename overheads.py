@@ -13,9 +13,9 @@ def overhead_function():
         reader = csv.reader(file)
         # skip the header 
         next(reader)
-        # make output equals to an empty string
+        # make output equal to an empty string
         Output = ""
-        # equate the highest overhead to 0 
+        # let highest_overhead be equal to 0 
         highest_overhead = 0 
         # make the highest category an empty string
         highest_category= ""
