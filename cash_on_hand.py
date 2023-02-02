@@ -32,7 +32,7 @@ def cash_on_hand_function():
                 diff = prev_coh - curr_coh 
                 # Increase the check value by 1 
                 check += 1
-                # Set the previous coh to be equals to the current coh
+                # Set the previous cash of hand to be equal to the current cash of hand
                 prev_coh = curr_coh
                 # Set the c variable to False
                 c = False
@@ -44,7 +44,7 @@ def cash_on_hand_function():
                 check = 0
                 # Equate the previous coh to be equals to the current coh 
                 prev_coh = curr_coh 
-        #if the variable c is true
+        # if the variable c is true
         if c == True: 
             # This statement will be printed 
             Output += ('[CASH SURPLUS] CASH ON EACH DAY IS HIGHER THAN THE PREVIOUS DAY')
