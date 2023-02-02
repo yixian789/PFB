@@ -14,7 +14,7 @@ def profitloss_function():
         reader = csv.reader(file)
         # skip header
         next(reader)
-        # make output equals to an empty string
+        # make output equal to an empty string
         Output = ""
         # Equate the previous net profit to 0 
         prev_net_profit = 0
